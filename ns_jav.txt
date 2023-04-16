@@ -1,0 +1,247 @@
+Java
+-----
+lavel of proramming
+--------------------
+1) Expression  
+	a+b
+2) statement  
+   a+b;
+   
+   staement
+-------------
+a=a+b;
+
+compound statement 
+------------------
+{
+	a=a+b;
+	a=a%b;
+}
+
+conditional statement
+---------------------
+if(a>b)
+{
+	a=a+b;
+}
+
+for(i=0; i<5; i++)
+{
+
+}
+
+3) function
+-------------
+>  In any program there is a function.
+>  At least one function must exist in a program. 
+>  Its name is system defined. But the program is defined by the user.
+
+#include<stdio.h>
+int main()
+{
+	printf("hlo");
+	return 0;
+}
+int  :- we must return the value.
+void :- We can't return any value.
+
+1) function with arguement with return
+ 
+   int f_name(int var)
+   {
+		return (var);
+   }
+
+2) function without arguement with return
+ 
+   int f_name()
+   {
+		return (var);
+   }
+
+3) function with arguement without return
+ 
+   void f_name(int var)
+   {
+		
+   }
+
+4) function without arguement without return
+ 
+   void f_name()
+   {
+		
+   }
+   
+class : A group of function makes a class.
+
+class bca1
+{
+	void input()
+	{
+	
+	}
+	void display1()
+	{
+	
+	}
+	void display2()
+	{
+	
+	}
+	
+}
+class bca2
+{
+	void input()
+	{
+	
+	}
+	void display1()
+	{
+	
+	}
+	void display2()
+	{
+	
+	}
+}
+
+> package : A group of class exists in a package. 
+import java.util.Scanner;
+	Scanner n =new Scanner (Sysatem.in)
+	
+software
+
+Java : 
+------
+> It is a high level language.  Binary language ( 1 , 0 ) 
+> Compiler and interpreter both translate high level language into low level language.
+
+language : A language is a medium through which we communicate with each other or with
+           computer. 
+           ex : c , c++ , java , python , vs , d2k	
+
+Programming language : A set of instruction given by the user to perform particular task
+                       i.e known as programming language.
+					   
+High level language : It is a language which is not uderstanded by everyone.
+Middle level language : It is friendly language with user and system.
+Low level language  : It is a language which understand easily. 
+Assembly language :  add ( + ) , address
+
+Translator :  It is used to tanslate machine level language into user language / high 
+			  level language into low level language.
+
+> 	Three types of translator
+1)  Interpreter
+2)  Compiler
+3)  Assembler
+
+1) Interpreter :- It converts the program high level into low level line by line.
+                  It is slow translator.
+	              ex : q-basic , visual basic
+				  
+2) Compiler  :-  It converts the program high level into low level the whole program 
+				 at a time.
+                 It is fast translator.
+	             ex : c , c++ 
+				 
+note : Interpreter and compiler both use in java. 
+
+3) Assembler language :- It converts assembly language into machine language.
+
+Multithread :- Program comes under the program i.e called Multithread.
+
+#include<stdio.h>
+int main()
+{
+	printf("hlo");
+	return 0;
+}
+
+Syntax of java program :
+
+class class_name
+{
+	public static void main(String array_variable[])
+	{
+	
+	}
+}
+
+class_name.class
+
+
+Output in c , c++ , java
+--------------------------
+c    : printf("hlo");             next line  :   printf("\n")
+c++  : cout<<"hlo";               next line  :   cout<<endl   /  cout<<"\n";
+java : System.out.print("hlo");   next line  :   System.out.println("");
+											     System.out.print("\n");
+												 
+Output of variable in c , c++ ,java
+-----------------------------------
+c     :  printf("Sum = %d",s); 
+c++   :  cout<<"sum = "<<s;
+java  :  System.out.print("sum = "+s);
+											
+Programming :
+-------------
+if....else
+for()
+while()
+do
+{
+
+}
+while();
+function()
+switch()
+break
+continue
+array  : 1-d 2-d
+
+1) Print Hlo in Java.
+
+class hlo1{
+	public static void main(String str[])
+	{
+		System.out.println("Hlo Nandini Sharma , Welcome to Java Program");
+	}
+}
+
+2) Print Your name with Hlo into java.
+class my_name{
+	public static void main(String []str)
+	{
+		System.out.println("HLO "+str[0]);                                 
+	}
+}
+
+2) Print Your name with Hlo into java.
+class my_name{
+	public static void main(String []str)
+	{
+		int n;
+		n=str.length;
+		for(int i=0; i<n; i++)
+		{
+			System.out.println("HLO "+str[i]);     
+		}                                        
+	}
+}
+
+Assignment
+
+1) Write some lines about your mother  about 5 lines.
+2) Print multiple name without loop.
+3) print multiple name with loop
+4) Print the sentence with loop which is inputed by the user.
+   ex : This is cow
+
+
+
+
+
+
